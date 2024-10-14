@@ -1,0 +1,77 @@
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.menu-item {
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 1.5rem auto;
+    max-width: 600px;
+    padding: 1.5rem;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+}
+
+.content {
+    padding: 1.5rem;
+}
+
+.tag {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    top: -1rem;
+    left: 1rem;
+    border-radius: 4px;
+}
+
+.chicken {
+    background-color: #e57373;
+}
+
+.beef {
+    background-color: #b22222;
+}
+
+.sushi {
+    background-color: #ffca28;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Адаптивное оформление */
+@media (max-width: 768px) {
+    .menu-item {
+        max-width: 90%;
+        margin: 1rem;
+    }
+}
